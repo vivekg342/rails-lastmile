@@ -1,0 +1,8 @@
+<%= node['rails-lastmile']['environment'] %>:
+  redis:
+    port: <%= node['redis']['port'] %>
+    host: <%= node['redis']['host'] %> 
+  counter:
+    host: <%= node['counter']['host'] %>
+    port: <%= node['counter']['port'] %>
+	

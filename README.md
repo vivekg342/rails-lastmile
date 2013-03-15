@@ -3,6 +3,10 @@ Description
 Configures a server for rails hosting. Delegates as much as possible to
 other cookbooks & ties everything together.
 
+ Note
+===== 
+ Added a recipe to handle configuration files  
+
 
 Attributes
 ==========

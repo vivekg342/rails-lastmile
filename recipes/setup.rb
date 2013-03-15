@@ -13,7 +13,7 @@ end
 
 node.default['rbenv']['rubies'] = [ node['rails-lastmile']['ruby_version'] ]
 
-include_recipe "apt"
+
 package "build-essential"
 include_recipe "ruby_build"
 
